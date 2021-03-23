@@ -1,0 +1,28 @@
+Configurando ambiente GIT
+
+*Informar usuário que esta logado
+git config --global user.name "John Marcus"
+
+*Informar email do usuario logado
+git config --global user.email "johncpv@gmail.com"
+
+*Informar editor utilizado
+git config --global core.editor vscode
+
+*Visualizar configurações.
+git config --list  (visualização geral)
+git config user.name (visualizar nome)
+
+INICIAR UM RESPOSITORIO
+
+Coloque o local do projeto
+C:\Users\johnm\OneDrive\Documentos\Projetos\Estudos\EstudosGIT> git init 
+
+CONCEITO BRANCH (VERSÃO DIFERENTES DO REPOSITORIO)
+
+Branch MASTER --> Versão oficial do repositório.
+
+CONCEITO COMIT (EXECUTA ALTERAÇÕES NO REPOSITORIO)
+
+ao dar um comit vc envia para o seu repositorio oficial (GIT) os arquivos que vc estava alterando localmente.
+
