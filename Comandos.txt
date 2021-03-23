@@ -30,5 +30,17 @@ ADICIONANDO ARQUIVOS NO GIT
 
 git status (mostra o status dos arquivos na pasta local e no GIT)
 git add -A (para enviar todos arquivos que estão na pasta mas não estão sendo monitorados pelo GIT)
-git commit -m "Primeiro commit do projeto" (confirmando subida das alterações.)
+git commit -am "Primeiro commit do projeto" (confirmando subida das alterações.)
 git log (exibe as ultimas ações na branch que esta.)
+git branch (lista todos os branch do projetos) 
+git reset --soft||mixer||hard (comando para voltar estado)
+    -soft (Volta antes do commit. Mantem os arquivos para futuras verificações.) ***O mais usado
+    -mixer (Volta antes do ADD. Mantem os arquivos para futuras verificações. )
+    -hard (Volta do local indicado. Apaga os arquivos pra frente.)
+
+CONCEITO BRANCH
+
+é um controle de "história" a parte do principal.
+
+git branch nomebranch (Criar novos branch)
+git checkout nomebranch (mudar para o branch sinalizado)
