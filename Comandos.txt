@@ -26,3 +26,9 @@ CONCEITO COMIT (EXECUTA ALTERAÇÕES NO REPOSITORIO)
 
 ao dar um comit vc envia para o seu repositorio oficial (GIT) os arquivos que vc estava alterando localmente.
 
+ADICIONANDO ARQUIVOS NO GIT
+
+git status (mostra o status dos arquivos na pasta local e no GIT)
+git add -A (para enviar todos arquivos que estão na pasta mas não estão sendo monitorados pelo GIT)
+git commit -m "Primeiro commit do projeto" (confirmando subida das alterações.)
+git log (exibe as ultimas ações na branch que esta.)
