@@ -46,3 +46,19 @@ git branch nomebranch (Criar novos branch)
 git checkout nomebranch (mudar para o branch sinalizado)
 git checkout (Voltar, pode ser um branch, um arquivo)
 git checkout -- (quando coloca -- é que esta esperando um nome e não um comando)
+
+
+ENVIAR REPOSITORIO LOCAL PARA O REMOTO (GITHUB)
+
+$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"  (camando para definir email conforme conta no github)
+git remote add origin https://github.com/johncpv/moduloGit.git (adciona repositorio remoto)
+git remote -v (mostra que existe um repositório remoto)
+
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/johncpv/moduloGit.git
+git push -u origin main 
+
