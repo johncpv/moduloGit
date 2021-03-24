@@ -60,5 +60,8 @@ git add README.md
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/johncpv/moduloGit.git
-git push -u origin main 
+git push --> Pusch envia os arquivos locais para a area remota
+git push fetch --> Fetch baixa os arquivos remotos para a area local
+
+
 
