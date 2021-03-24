@@ -44,3 +44,5 @@ CONCEITO BRANCH
 
 git branch nomebranch (Criar novos branch)
 git checkout nomebranch (mudar para o branch sinalizado)
+git checkout (Voltar, pode ser um branch, um arquivo)
+git checkout -- (quando coloca -- é que esta esperando um nome e não um comando)
